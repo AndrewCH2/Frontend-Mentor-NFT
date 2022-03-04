@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Spline+Sans:wght@500&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family:"Outfit",sans-serif;
+    background-color:hsl(217, 54%, 11%);
+  }
+
+.square{
+    border-radius: 20px;
+    padding-top: 25px;
+    max-width: 357px;
+    max-height: 596px;
+    text-align: center;
+    margin:  42px auto;
+    background-color: hsl(216, 50%, 16%);
+}
+
+p,h2,h3,h4{
+    font-size: 18px;
+    margin: 0 10px;
+    padding: 0 20px;
+    font-weight: 300;
+    text-align: left;
+    color:hsl(215, 51%, 70%)
+}
+
+h2{
+    margin: 0 30px;
+    padding: 20px 0;
+    font-size: 22px;
+    font-weight: 600;
+    color:white;
+}
+
+p{
+    padding-bottom:20px;
+}
+
+h4{
+    color:hsl(178, 100%, 50%);
+    font-weight: 400;
+    padding-bottom: 20px;
+    
+}
+
+h3{
+    padding: 20px;
+    position: relative;
+    bottom: 10px;
+}
+#kubus{
+    border-radius: 10px;
+    width: 302px;
+    height: 302px;
+}
+
+#avatar{
+    border: 1px solid white;
+    margin-right: 10px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 7px;
+}
+
+#ethereum{
+    padding-right:  5px;
+    size: 70%;
+}
+
+.text-white{
+    color: white;
+}
+
+.days{
+    float: right;
+    color:hsl(215, 51%, 70%);
+}
+
+.eth{
+    float: left;
+}
+
+hr{
+    position: relative;
+    left: 32px;
+    display:block;
+    width: 80%;
+    color: hsl(215, 51%, 70%);
+}
